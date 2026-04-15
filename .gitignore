@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local envs / editor
+.venv/
+venv/
+.env
+
+# Large training artifacts and checkpoints
+sae_results/
+sae_results_smollm/
+finetuned_models/
+finetuned_models_smollm/
+finetuned_models_smollm3/
+finetuned_models_qwen25/
+
+# Derived vectors / audit outputs
+concept_vectors/
+concept_vectors_smollm/
+audit_results/
+audit_results_smollm/
+audit_reports/
+audit_reports_smollm/
+
+# Raw datasets
+data/
+
+# OS noise
+.DS_Store
+Thumbs.db

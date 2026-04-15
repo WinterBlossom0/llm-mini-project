@@ -1,0 +1,16 @@
+{
+  "total_questions": 40,
+  "questions_per_concept": {
+    "politics": 10,
+    "violence": 10,
+    "nsfw": 10,
+    "misinformation": 10
+  },
+  "concepts": [
+    "politics",
+    "violence",
+    "nsfw",
+    "misinformation"
+  ],
+  "variants_per_question": 2
+}
